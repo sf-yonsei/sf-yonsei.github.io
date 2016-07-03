@@ -104,3 +104,7 @@ footer.page-footer {
 .no-border {
   border:0px !important;
 }
+
+.event-address a:hover {
+  color: #559 !important;
+}
