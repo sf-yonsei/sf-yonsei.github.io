@@ -7,7 +7,7 @@
     $(".event-date").each(function() {
 	  var date = $(this).text();
 	  var relative = moment(date).fromNow();
-	  var absolute = moment(date).format("LLL");
+	  var absolute = moment(date).format("LLLL");
 
 	  $(this).html(absolute + " <span class='grey-text'>" + relative + "</span>");
 	})
