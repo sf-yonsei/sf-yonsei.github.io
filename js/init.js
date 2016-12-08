@@ -18,6 +18,8 @@
 	  $(this).html("<a href='http://maps.google.com/?q=" + address + "' target=_blank class='grey-text'>" + address + "</span>");
 	})
 
+	$("#young-year").html(new Date().getFullYear() - 20)
+
 
   }); // end of document ready
 })(jQuery); // end of jQuery name space
